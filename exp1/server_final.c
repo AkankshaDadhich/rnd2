@@ -117,9 +117,9 @@ int main()
     struct sockaddr_in addr = {
         .sin_family = AF_INET,
         .sin_port = htons(PORT),
-        .sin_addr.s_addr = INADDR_ANY
+        // .sin_addr.s_addr = INADDR_ANY
         };
-        // inet_pton(AF_INET, "10.130.154.1", &addr.sin_addr);
+        inet_pton(AF_INET, "10.130.154.1", &addr.sin_addr);
 
     if (bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) < 0)
     {
