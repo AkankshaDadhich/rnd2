@@ -5,17 +5,18 @@
 #include <arpa/inet.h>
 #include <pthread.h>
 
-// #define SERVER_IP "127.0.0.1"
-#define SERVER_IP "10.130.154.1"
+#define SERVER_IP "127.0.0.1"
 #define PORT 8080
-#define TCP_CONN 2 // Number of TCP connections
-#define PACKETS 1000000 // Packets per connection
+#define TCP_CONN 2   // Number of TCP connections
+#define PACKETS 20   // Total packets to be sent
 
 pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
 
 int global_packet_id = 1;  // Global packet counter
-int current_conn = 1;       // Tracks which connection should send next
+int pattern[] = {2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 1}; // The desired pattern
+int pattern_length = sizeof(pattern) / sizeof(pattern[0]);
+int pattern_index = 0;
 
 void *send_packets(void *arg) {
     int conn_id = *(int *)arg;
@@ -29,18 +30,20 @@ void *send_packets(void *arg) {
         return NULL;
     }
 
-    for (int i = 0; i < PACKETS; i++) {
+    for (int i = 0; i < PACKETS / TCP_CONN; i++) {
         pthread_mutex_lock(&lock);
-        while (current_conn != conn_id) {
+        while (pattern[pattern_index] != conn_id) {
             pthread_cond_wait(&cond, &lock);
         }
 
         char msg[50];
         sprintf(msg, "TCP:%d | PACKET:%d\n", conn_id, global_packet_id++);
         send(sock, msg, strlen(msg), 0);
-        // printf("%s", msg);
+        printf("%s", msg);
 
-        current_conn = (current_conn % TCP_CONN) + 1;  // Move to the next connection
+        // Move to the next index in the pattern
+        pattern_index = (pattern_index + 1) % pattern_length;
+
         pthread_cond_broadcast(&cond);
         pthread_mutex_unlock(&lock);
     }
@@ -63,6 +66,6 @@ int main() {
         pthread_join(threads[i], NULL);
     }
 
-    printf("All packets sent in strict TCP connection order.\n");
+    printf("All packets sent in the custom pattern.\n");
     return 0;
 }
