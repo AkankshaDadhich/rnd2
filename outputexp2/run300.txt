@@ -1,0 +1,479 @@
+Run 1 Output:
+Server listening on port 8080
+Throughput Conn1 = 27.43 Mbps
+Throughput Conn2 = 27.44 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 26 times
+Socket 2 before Socket 1 = 29 times
+Socket 2 and Socket 1 = 55 times
+First Socket Count = 5
+Second Socket Count = 3
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 11
+Conn2 packets = 10
+Conn1 duration = 0.005249 sec
+Conn2 duration = 0.005248 sec
+Total Time = 0.010497 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.472727
+Ratio (Socket 2 before Socket 1 / Total) = 0.527273
+Throughput = 27.436410 Mbps
+
+------------------------
+Run 2 Output:
+Server listening on port 8080
+Throughput Conn1 = 179.10 Mbps
+Throughput Conn2 = 192.26 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 6 times
+Socket 2 before Socket 1 = 16 times
+Socket 2 and Socket 1 = 22 times
+First Socket Count = 2
+Second Socket Count = 3
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 31
+Conn2 packets = 32
+Conn1 duration = 0.000804 sec
+Conn2 duration = 0.000749 sec
+Total Time = 0.001553 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.272727
+Ratio (Socket 2 before Socket 1 / Total) = 0.727273
+Throughput = 185.447521 Mbps
+
+------------------------
+Run 3 Output:
+Server listening on port 8080
+Throughput Conn1 = 23.79 Mbps
+Throughput Conn2 = 24.04 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 37 times
+Socket 2 before Socket 1 = 24 times
+Socket 2 and Socket 1 = 61 times
+First Socket Count = 9
+Second Socket Count = 2
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 6
+Conn2 packets = 8
+Conn1 duration = 0.006054 sec
+Conn2 duration = 0.005991 sec
+Total Time = 0.012045 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.606557
+Ratio (Socket 2 before Socket 1 / Total) = 0.393443
+Throughput = 23.910336 Mbps
+
+------------------------
+Run 4 Output:
+Server listening on port 8080
+Throughput Conn1 = 24.76 Mbps
+Throughput Conn2 = 25.01 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 29 times
+Socket 2 before Socket 1 = 28 times
+Socket 2 and Socket 1 = 57 times
+First Socket Count = 4
+Second Socket Count = 4
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 6
+Conn2 packets = 8
+Conn1 duration = 0.005817 sec
+Conn2 duration = 0.005757 sec
+Total Time = 0.011574 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.508772
+Ratio (Socket 2 before Socket 1 / Total) = 0.491228
+Throughput = 24.883359 Mbps
+
+------------------------
+Run 5 Output:
+Server listening on port 8080
+Throughput Conn1 = 26.66 Mbps
+Throughput Conn2 = 26.72 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 20 times
+Socket 2 before Socket 1 = 37 times
+Socket 2 and Socket 1 = 57 times
+First Socket Count = 4
+Second Socket Count = 7
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 11
+Conn2 packets = 10
+Conn1 duration = 0.005401 sec
+Conn2 duration = 0.005390 sec
+Total Time = 0.010791 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.350877
+Ratio (Socket 2 before Socket 1 / Total) = 0.649123
+Throughput = 26.688907 Mbps
+
+------------------------
+Run 6 Output:
+Server listening on port 8080
+Throughput Conn1 = 27.30 Mbps
+Throughput Conn2 = 27.31 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 28 times
+Socket 2 before Socket 1 = 29 times
+Socket 2 and Socket 1 = 57 times
+First Socket Count = 2
+Second Socket Count = 8
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 11
+Conn2 packets = 9
+Conn1 duration = 0.005274 sec
+Conn2 duration = 0.005273 sec
+Total Time = 0.010547 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.491228
+Ratio (Socket 2 before Socket 1 / Total) = 0.508772
+Throughput = 27.306343 Mbps
+
+------------------------
+Run 7 Output:
+Server listening on port 8080
+Throughput Conn1 = 29.18 Mbps
+Throughput Conn2 = 28.88 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 30 times
+Socket 2 before Socket 1 = 26 times
+Socket 2 and Socket 1 = 56 times
+First Socket Count = 3
+Second Socket Count = 8
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 13
+Conn2 packets = 11
+Conn1 duration = 0.004935 sec
+Conn2 duration = 0.004986 sec
+Total Time = 0.009921 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.535714
+Ratio (Socket 2 before Socket 1 / Total) = 0.464286
+Throughput = 29.029332 Mbps
+
+------------------------
+Run 8 Output:
+Server listening on port 8080
+Throughput Conn1 = 23.63 Mbps
+Throughput Conn2 = 23.67 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 39 times
+Socket 2 before Socket 1 = 22 times
+Socket 2 and Socket 1 = 61 times
+First Socket Count = 6
+Second Socket Count = 3
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 8
+Conn2 packets = 10
+Conn1 duration = 0.006094 sec
+Conn2 duration = 0.006084 sec
+Total Time = 0.012178 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.639344
+Ratio (Socket 2 before Socket 1 / Total) = 0.360656
+Throughput = 23.649203 Mbps
+
+------------------------
+Run 9 Output:
+Server listening on port 8080
+Throughput Conn1 = 23.98 Mbps
+Throughput Conn2 = 23.95 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 45 times
+Socket 2 before Socket 1 = 17 times
+Socket 2 and Socket 1 = 62 times
+First Socket Count = 9
+Second Socket Count = 1
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 6
+Conn2 packets = 7
+Conn1 duration = 0.006005 sec
+Conn2 duration = 0.006013 sec
+Total Time = 0.012018 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.725806
+Ratio (Socket 2 before Socket 1 / Total) = 0.274194
+Throughput = 23.964054 Mbps
+
+------------------------
+Run 10 Output:
+Server listening on port 8080
+Throughput Conn1 = 26.54 Mbps
+Throughput Conn2 = 26.57 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 21 times
+Socket 2 before Socket 1 = 38 times
+Socket 2 and Socket 1 = 59 times
+First Socket Count = 3
+Second Socket Count = 6
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 7
+Conn2 packets = 7
+Conn1 duration = 0.005426 sec
+Conn2 duration = 0.005419 sec
+Total Time = 0.010845 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.355932
+Ratio (Socket 2 before Socket 1 / Total) = 0.644068
+Throughput = 26.556017 Mbps
+
+------------------------
+Run 11 Output:
+Server listening on port 8080
+Throughput Conn1 = 27.30 Mbps
+Throughput Conn2 = 27.62 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 30 times
+Socket 2 before Socket 1 = 23 times
+Socket 2 and Socket 1 = 53 times
+First Socket Count = 4
+Second Socket Count = 3
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 11
+Conn2 packets = 11
+Conn1 duration = 0.005275 sec
+Conn2 duration = 0.005214 sec
+Total Time = 0.010489 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.566038
+Ratio (Socket 2 before Socket 1 / Total) = 0.433962
+Throughput = 27.457336 Mbps
+
+------------------------
+Run 12 Output:
+Server listening on port 8080
+Throughput Conn1 = 26.99 Mbps
+Throughput Conn2 = 27.00 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 27 times
+Socket 2 before Socket 1 = 30 times
+Socket 2 and Socket 1 = 57 times
+First Socket Count = 6
+Second Socket Count = 6
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 12
+Conn2 packets = 8
+Conn1 duration = 0.005336 sec
+Conn2 duration = 0.005333 sec
+Total Time = 0.010669 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.473684
+Ratio (Socket 2 before Socket 1 / Total) = 0.526316
+Throughput = 26.994095 Mbps
+
+------------------------
+Run 13 Output:
+Server listening on port 8080
+Throughput Conn1 = 24.33 Mbps
+Throughput Conn2 = 24.36 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 38 times
+Socket 2 before Socket 1 = 31 times
+Socket 2 and Socket 1 = 69 times
+First Socket Count = 7
+Second Socket Count = 6
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 6
+Conn2 packets = 6
+Conn1 duration = 0.005918 sec
+Conn2 duration = 0.005911 sec
+Total Time = 0.011829 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.550725
+Ratio (Socket 2 before Socket 1 / Total) = 0.449275
+Throughput = 24.346944 Mbps
+
+------------------------
+Run 14 Output:
+Server listening on port 8080
+Throughput Conn1 = 28.08 Mbps
+Throughput Conn2 = 28.14 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 33 times
+Socket 2 before Socket 1 = 26 times
+Socket 2 and Socket 1 = 59 times
+First Socket Count = 4
+Second Socket Count = 4
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 8
+Conn2 packets = 10
+Conn1 duration = 0.005128 sec
+Conn2 duration = 0.005117 sec
+Total Time = 0.010245 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.559322
+Ratio (Socket 2 before Socket 1 / Total) = 0.440678
+Throughput = 28.111274 Mbps
+
+------------------------
+Run 15 Output:
+Server listening on port 8080
+Throughput Conn1 = 24.62 Mbps
+Throughput Conn2 = 24.87 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 38 times
+Socket 2 before Socket 1 = 24 times
+Socket 2 and Socket 1 = 62 times
+First Socket Count = 8
+Second Socket Count = 6
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 6
+Conn2 packets = 6
+Conn1 duration = 0.005848 sec
+Conn2 duration = 0.005791 sec
+Total Time = 0.011639 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.612903
+Ratio (Socket 2 before Socket 1 / Total) = 0.387097
+Throughput = 24.744394 Mbps
+
+------------------------
+Run 16 Output:
+Server listening on port 8080
+Throughput Conn1 = 27.82 Mbps
+Throughput Conn2 = 27.84 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 26 times
+Socket 2 before Socket 1 = 30 times
+Socket 2 and Socket 1 = 56 times
+First Socket Count = 3
+Second Socket Count = 2
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 9
+Conn2 packets = 10
+Conn1 duration = 0.005176 sec
+Conn2 duration = 0.005173 sec
+Total Time = 0.010349 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.464286
+Ratio (Socket 2 before Socket 1 / Total) = 0.535714
+Throughput = 27.828776 Mbps
+
+------------------------
+Run 17 Output:
+Server listening on port 8080
+Throughput Conn1 = 24.52 Mbps
+Throughput Conn2 = 24.75 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 31 times
+Socket 2 before Socket 1 = 33 times
+Socket 2 and Socket 1 = 64 times
+First Socket Count = 5
+Second Socket Count = 5
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 6
+Conn2 packets = 5
+Conn1 duration = 0.005873 sec
+Conn2 duration = 0.005819 sec
+Total Time = 0.011692 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.484375
+Ratio (Socket 2 before Socket 1 / Total) = 0.515625
+Throughput = 24.632227 Mbps
+
+------------------------
+Run 18 Output:
+Server listening on port 8080
+Throughput Conn1 = 28.00 Mbps
+Throughput Conn2 = 28.32 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 37 times
+Socket 2 before Socket 1 = 26 times
+Socket 2 and Socket 1 = 63 times
+First Socket Count = 6
+Second Socket Count = 4
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 11
+Conn2 packets = 11
+Conn1 duration = 0.005142 sec
+Conn2 duration = 0.005085 sec
+Total Time = 0.010227 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.587302
+Ratio (Socket 2 before Socket 1 / Total) = 0.412698
+Throughput = 28.160751 Mbps
+
+------------------------
+Run 19 Output:
+Server listening on port 8080
+Throughput Conn1 = 25.94 Mbps
+Throughput Conn2 = 26.15 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 27 times
+Socket 2 before Socket 1 = 38 times
+Socket 2 and Socket 1 = 65 times
+First Socket Count = 5
+Second Socket Count = 10
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 7
+Conn2 packets = 8
+Conn1 duration = 0.005552 sec
+Conn2 duration = 0.005507 sec
+Total Time = 0.011059 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.415385
+Ratio (Socket 2 before Socket 1 / Total) = 0.584615
+Throughput = 26.042138 Mbps
+
+------------------------
+Run 20 Output:
+Server listening on port 8080
+Throughput Conn1 = 24.78 Mbps
+Throughput Conn2 = 24.98 Mbps
+
+--- Order Ratio Analysis ---
+Socket 1 before Socket 2 = 33 times
+Socket 2 before Socket 1 = 28 times
+Socket 2 and Socket 1 = 61 times
+First Socket Count = 4
+Second Socket Count = 4
+Conn1 bytes = 18000
+Conn2 bytes = 18000
+Conn1 packets = 8
+Conn2 packets = 8
+Conn1 duration = 0.005810 sec
+Conn2 duration = 0.005764 sec
+Total Time = 0.011574 sec
+Ratio (Socket 1 before Socket 2 / Total) = 0.540984
+Ratio (Socket 2 before Socket 1 / Total) = 0.459016
+Throughput = 24.883359 Mbps
+
+------------------------
+
+Summary - Average Parameter Values Across 20 Successful Runs:
+Throughput Conn1 = 33.737500
+Throughput Conn2 = 34.494000
+Socket 1 before Socket 2 = 30.050000
+Socket 2 before Socket 1 = 27.750000
+Socket 2 and Socket 1 = 57.800000
+Conn1 bytes = 18000.000000
+Conn2 bytes = 18000.000000
+Conn1 packets = 9.700000
+Conn2 packets = 9.750000
+Conn1 duration = 0.005306
+Conn2 duration = 0.005281
+First Socket Count = 4.950000
+Second Socket Count = 4.750000
+Total Time = 0.010587
+Ratio (Socket 1 before Socket 2 / Total) = 0.510734
+Ratio (Socket 2 before Socket 1 / Total) = 0.489266
+Throughput = 34.103639

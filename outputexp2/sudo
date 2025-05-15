@@ -1,0 +1,28 @@
+# Increase max connection backlog
+net.core.somaxconn = 65535
+net.core.netdev_max_backlog = 500000
+net.ipv4.tcp_max_syn_backlog = 65535
+
+# Reduce connection latency
+net.ipv4.tcp_fin_timeout = 5
+net.ipv4.tcp_tw_reuse = 1
+net.ipv4.tcp_tw_recycle = 0  # Deprecated in Linux 4.12+
+net.ipv4.tcp_syncookies = 0   # Disable SYN cookies (better for high-speed connections)
+net.ipv4.tcp_synack_retries = 2
+
+# Reduce packet processing delays
+net.core.rmem_max = 67108864
+net.core.wmem_max = 67108864
+net.core.rmem_default = 33554432
+net.core.wmem_default = 33554432
+net.core.optmem_max = 25165824
+
+# Enable TCP Fast Open (reduces handshake latency)
+net.ipv4.tcp_fastopen = 3
+
+# Disable slow start after idle (keeps connection throughput high)
+net.ipv4.tcp_slow_start_after_idle = 0
+
+# Optimize congestion control (use BBR for ultra-low latency)
+net.ipv4.tcp_congestion_control = bbr
+
