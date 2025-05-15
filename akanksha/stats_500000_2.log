@@ -1,0 +1,162 @@
+Summary for Connections 1 to 50:
+  Avg Non-persistent count: 236217.48
+  Avg Persistent count: 242190.60
+  Avg Total when both present: 478408.08
+  Avg Only persistent count: 86735.46
+  Avg Only non-persistent count: 72938.88
+  Avg Persistent bytes read: 525865924.16
+  Avg Non-persistent bytes read: 511777616.88
+  Avg Persistent ratio: 0.50
+  Avg Non-persistent ratio: 0.50
+  Avg Connection 2 duration: 8.701754 sec
+  Avg Throughput Persistent: 480.79 Mbps
+  Avg Throughput Non-Persistent: 469.99 Mbps
+  Avg Persistent packets: 443056.64
+  Avg Non-Persistent packets: 428927.84
+
+Summary for Connections 51 to 100:
+  Avg Non-persistent count: 236288.48
+  Avg Persistent count: 241779.00
+  Avg Total when both present: 478067.48
+  Avg Only persistent count: 83320.84
+  Avg Only non-persistent count: 73017.68
+  Avg Persistent bytes read: 522233971.36
+  Avg Non-persistent bytes read: 511787032.08
+  Avg Persistent ratio: 0.51
+  Avg Non-persistent ratio: 0.49
+  Avg Connection 2 duration: 8.700613 sec
+  Avg Throughput Persistent: 479.95 Mbps
+  Avg Throughput Non-Persistent: 470.81 Mbps
+  Avg Persistent packets: 439734.84
+  Avg Non-Persistent packets: 429133.70
+
+Summary for Connections 101 to 150:
+  Avg Non-persistent count: 236117.98
+  Avg Persistent count: 242278.28
+  Avg Total when both present: 478396.26
+  Avg Only persistent count: 83051.14
+  Avg Only non-persistent count: 72657.24
+  Avg Persistent bytes read: 522455978.72
+  Avg Non-persistent bytes read: 511787160.96
+  Avg Persistent ratio: 0.50
+  Avg Non-persistent ratio: 0.50
+  Avg Connection 2 duration: 8.702414 sec
+  Avg Throughput Persistent: 480.29 Mbps
+  Avg Throughput Non-Persistent: 470.49 Mbps
+  Avg Persistent packets: 440065.04
+  Avg Non-Persistent packets: 429257.02
+
+Summary for Connections 151 to 200:
+  Avg Non-persistent count: 236211.42
+  Avg Persistent count: 242107.62
+  Avg Total when both present: 478319.04
+  Avg Only persistent count: 82978.36
+  Avg Only non-persistent count: 72614.34
+  Avg Persistent bytes read: 522375808.16
+  Avg Non-persistent bytes read: 511789850.64
+  Avg Persistent ratio: 0.50
+  Avg Non-persistent ratio: 0.50
+  Avg Connection 2 duration: 8.701617 sec
+  Avg Throughput Persistent: 480.69 Mbps
+  Avg Throughput Non-Persistent: 470.11 Mbps
+  Avg Persistent packets: 440035.42
+  Avg Non-Persistent packets: 429327.86
+
+Summary for Connections 201 to 250:
+  Avg Non-persistent count: 236073.08
+  Avg Persistent count: 242242.62
+  Avg Total when both present: 478315.70
+  Avg Only persistent count: 83052.68
+  Avg Only non-persistent count: 72708.12
+  Avg Persistent bytes read: 522334375.68
+  Avg Non-persistent bytes read: 511785960.80
+  Avg Persistent ratio: 0.51
+  Avg Non-persistent ratio: 0.49
+  Avg Connection 2 duration: 8.701273 sec
+  Avg Throughput Persistent: 480.63 Mbps
+  Avg Throughput Non-Persistent: 470.16 Mbps
+  Avg Persistent packets: 439886.20
+  Avg Non-Persistent packets: 429240.26
+
+Summary for Connections 251 to 300:
+  Avg Non-persistent count: 236080.66
+  Avg Persistent count: 242323.80
+  Avg Total when both present: 478404.46
+  Avg Only persistent count: 83072.82
+  Avg Only non-persistent count: 72699.98
+  Avg Persistent bytes read: 522339479.84
+  Avg Non-persistent bytes read: 511775138.56
+  Avg Persistent ratio: 0.51
+  Avg Non-persistent ratio: 0.49
+  Avg Connection 2 duration: 8.701383 sec
+  Avg Throughput Persistent: 479.89 Mbps
+  Avg Throughput Non-Persistent: 470.90 Mbps
+  Avg Persistent packets: 439778.12
+  Avg Non-Persistent packets: 429140.34
+
+Summary for Connections 301 to 350:
+  Avg Non-persistent count: 236214.38
+  Avg Persistent count: 242251.72
+  Avg Total when both present: 478466.10
+  Avg Only persistent count: 82793.88
+  Avg Only non-persistent count: 72404.76
+  Avg Persistent bytes read: 522411293.44
+  Avg Non-persistent bytes read: 511790347.20
+  Avg Persistent ratio: 0.51
+  Avg Non-persistent ratio: 0.49
+  Avg Connection 2 duration: 8.702296 sec
+  Avg Throughput Persistent: 480.02 Mbps
+  Avg Throughput Non-Persistent: 470.74 Mbps
+  Avg Persistent packets: 440086.98
+  Avg Non-Persistent packets: 429374.64
+
+Summary for Connections 351 to 400:
+  Avg Non-persistent count: 236306.82
+  Avg Persistent count: 242196.36
+  Avg Total when both present: 478503.18
+  Avg Only persistent count: 83186.04
+  Avg Only non-persistent count: 72959.46
+  Avg Persistent bytes read: 522269205.28
+  Avg Non-persistent bytes read: 511790227.60
+  Avg Persistent ratio: 0.50
+  Avg Non-persistent ratio: 0.50
+  Avg Connection 2 duration: 8.700894 sec
+  Avg Throughput Persistent: 480.11 Mbps
+  Avg Throughput Non-Persistent: 470.67 Mbps
+  Avg Persistent packets: 439528.92
+  Avg Non-Persistent packets: 428867.78
+
+Summary for Connections 401 to 409:
+  Avg Non-persistent count: 233950.78
+  Avg Persistent count: 239154.11
+  Avg Total when both present: 473104.89
+  Avg Only persistent count: 81864.22
+  Avg Only non-persistent count: 77089.78
+  Avg Persistent bytes read: 516507263.11
+  Avg Non-persistent bytes read: 511805235.56
+  Avg Persistent ratio: 0.51
+  Avg Non-persistent ratio: 0.49
+  Avg Connection 2 duration: 8.661617 sec
+  Avg Throughput Persistent: 450.39 Mbps
+  Avg Throughput Non-Persistent: 491.13 Mbps
+  Avg Persistent packets: 435126.89
+  Avg Non-Persistent packets: 430215.33
+
+
+Overall Statistics (Averaged):
+Average events when both were present: 478244.40
+Average Persistent count: 242104.86
+Average Non-Persistent count: 236139.54
+Average Persistent Ratio: 0.51
+Average Non-Persistent Ratio: 0.49
+Rejected connections: 0
+Average Only Persistent count: 83487.38
+Average Only Non Persistent count: 72845.55
+Average persistent bytes per connection: 522647597.07
+Average non-persistent bytes per connection: 511785852.95
+Average persistent packets per connection: 440158.31
+Average non-persistent packets per connection: 429181.93
+Total persistent duration: 3600.001065 sec
+Total non-persistent duration: 3558.566683 sec
+Average Throughput Persistent: 475.03 Mbps
+Average Throughput Non-Persistent: 470.57 Mbps

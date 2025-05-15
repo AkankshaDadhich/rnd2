@@ -1,0 +1,89 @@
+# This script is used to analyze the data from the simulation of persistent and non-persistent connections.
+
+
+
+
+Summary of Averages for Overall Statistics (Averaged): 50000
+
+Average events when both were present: 24919.65000
+Average Persistent count: 12584.24000
+Average Non-Persistent count: 12335.41000
+Average Persistent Ratio: 0.50000
+Average Non-Persistent Ratio: 0.50000
+Rejected connections: 0.00000
+Average Only Persistent count: 40082.69000
+Average Only Non Persistent count: 25618.88000
+Average persistent bytes per connection: 65668840.96000
+Average non-persistent bytes per connection: 50950765.84000
+Average persistent packets per connection: 63155.08000
+Average non-persistent packets per connection: 48937.32000
+Total persistent duration: 3599.99635
+Total non-persistent duration: 3237.17509
+Average Throughput Persistent: 530.17000
+Average Throughput Non-Persistent: 457.45000
+
+
+
+=====================
+
+Summary of Averages for Overall Statistics (Averaged): 75000
+
+Average events when both were present: 37757.85
+Average Persistent count: 19007.97
+Average Non-Persistent count: 18749.89
+Average Persistent Ratio: 0.50
+Average Non-Persistent Ratio: 0.50
+Rejected connections: 0.00
+Average Only Persistent count: 52807.09
+Average Only Non Persistent count: 38294.24
+Average persistent bytes per connection: 91454659.05
+Average non-persistent bytes per connection: 76689346.58
+Average persistent packets per connection: 87939.85
+Average non-persistent packets per connection: 73679.64
+Total persistent duration: 3600.01
+Total non-persistent duration: 3346.59
+Average Throughput Persistent: 512.14
+Average Throughput Non-Persistent: 461.98
+
+
+
+
+Summary of Averages for Overall Statistics (Averaged):100000
+
+Average events when both were present: 73244.06000
+Average Persistent count: 36554.05500
+Average Non-Persistent count: 36690.00500
+Average Persistent Ratio: 0.50000
+Average Non-Persistent Ratio: 0.50000
+Rejected connections: 0.00000
+Average Only Persistent count: 43158.41500
+Average Only Non Persistent count: 29220.16500
+Average persistent bytes per connection: 116352856.21500
+Average non-persistent bytes per connection: 102228608.30500
+Average persistent packets per connection: 111011.21000
+Average non-persistent packets per connection: 97401.72500
+Total persistent duration: 3600.00379
+Total non-persistent duration: 3407.79049
+Average Throughput Persistent: 501.08000
+Average Throughput Non-Persistent: 465.09500
+
+===========
+
+Summary of Averages for Overall Statistics (Averaged): 1000000
+
+Average events when both were present: 509369.26500
+Average Persistent count: 254512.45500
+Average Non-Persistent count: 254856.81000
+Average Persistent Ratio: 0.50000
+Average Non-Persistent Ratio: 0.50000
+Rejected connections: 0.00000
+Average Only Persistent count: 517744.75500
+Average Only Non Persistent count: 505477.65500
+Average persistent bytes per connection: 1036301421.36000
+Average non-persistent bytes per connection: 1023796824.25000
+Average persistent packets per connection: 996198.92500
+Average non-persistent packets per connection: 984084.50500
+Total persistent duration: 3600.01544
+Total non-persistent duration: 3583.13290
+Average Throughput Persistent: 474.39500
+Average Throughput Non-Persistent: 470.88000
